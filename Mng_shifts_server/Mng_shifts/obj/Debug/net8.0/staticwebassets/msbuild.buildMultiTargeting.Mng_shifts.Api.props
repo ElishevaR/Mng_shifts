@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Mng_shifts.Api.props" />
+</Project>

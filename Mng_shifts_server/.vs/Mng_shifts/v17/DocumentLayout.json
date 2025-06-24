@@ -1,0 +1,614 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\myCoursesFullStack\\\u05EA\u05E9\u05E4\u05D4\\Mng_shifts\\Mng_shifts_server\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0D6E3A30-5298-4D74-9AEC-0A2AAF582C1C}|Mng_shifts.Data\\Mng_shifts.Data.csproj|c:\\mycoursesfullstack\\\u05EA\u05E9\u05E4\u05D4\\mng_shifts\\mng_shifts_server\\mng_shifts.data\\repositories\\shiftexchangerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D6E3A30-5298-4D74-9AEC-0A2AAF582C1C}|Mng_shifts.Data\\Mng_shifts.Data.csproj|solutionrelative:mng_shifts.data\\repositories\\shiftexchangerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F35A320-192E-4835-AD19-6349E4F8F01D}|Mng_shifts.Service\\Mng_shifts.Service.csproj|C:\\myCoursesFullStack\\\u05EA\u05E9\u05E4\u05D4\\Mng_shifts\\Mng_shifts_server\\mng_shifts.service\\services\\shiftexchangeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F35A320-192E-4835-AD19-6349E4F8F01D}|Mng_shifts.Service\\Mng_shifts.Service.csproj|solutionrelative:mng_shifts.service\\services\\shiftexchangeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7302CFE2-9C55-4E26-9A7C-864C0B5164D8}|Mng_shifts\\Mng_shifts.Api.csproj|C:\\myCoursesFullStack\\\u05EA\u05E9\u05E4\u05D4\\Mng_shifts\\Mng_shifts_server\\mng_shifts\\controllers\\shiftexchangecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7302CFE2-9C55-4E26-9A7C-864C0B5164D8}|Mng_shifts\\Mng_shifts.Api.csproj|solutionrelative:mng_shifts\\controllers\\shiftexchangecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7302CFE2-9C55-4E26-9A7C-864C0B5164D8}|Mng_shifts\\Mng_shifts.Api.csproj|C:\\myCoursesFullStack\\\u05EA\u05E9\u05E4\u05D4\\Mng_shifts\\Mng_shifts_server\\mng_shifts\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{7302CFE2-9C55-4E26-9A7C-864C0B5164D8}|Mng_shifts\\Mng_shifts.Api.csproj|solutionrelative:mng_shifts\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{90BF2400-0A52-4F0C-9ECA-5A9DB4E08D1A}|Mng_shifts.Core\\Mng_shifts.Core.csproj|C:\\myCoursesFullStack\\\u05EA\u05E9\u05E4\u05D4\\Mng_shifts\\Mng_shifts_server\\mng_shifts.core\\entities\\swaprequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90BF2400-0A52-4F0C-9ECA-5A9DB4E08D1A}|Mng_shifts.Core\\Mng_shifts.Core.csproj|solutionrelative:mng_shifts.core\\entities\\swaprequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F35A320-192E-4835-AD19-6349E4F8F01D}|Mng_shifts.Service\\Mng_shifts.Service.csproj|C:\\myCoursesFullStack\\\u05EA\u05E9\u05E4\u05D4\\Mng_shifts\\Mng_shifts_server\\mng_shifts.service\\mng_shifts.service.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{7F35A320-192E-4835-AD19-6349E4F8F01D}|Mng_shifts.Service\\Mng_shifts.Service.csproj|solutionrelative:mng_shifts.service\\mng_shifts.service.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{90BF2400-0A52-4F0C-9ECA-5A9DB4E08D1A}|Mng_shifts.Core\\Mng_shifts.Core.csproj|C:\\myCoursesFullStack\\\u05EA\u05E9\u05E4\u05D4\\Mng_shifts\\Mng_shifts_server\\mng_shifts.core\\irepositories\\ishiftexchangerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90BF2400-0A52-4F0C-9ECA-5A9DB4E08D1A}|Mng_shifts.Core\\Mng_shifts.Core.csproj|solutionrelative:mng_shifts.core\\irepositories\\ishiftexchangerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{90BF2400-0A52-4F0C-9ECA-5A9DB4E08D1A}|Mng_shifts.Core\\Mng_shifts.Core.csproj|C:\\myCoursesFullStack\\\u05EA\u05E9\u05E4\u05D4\\Mng_shifts\\Mng_shifts_server\\mng_shifts.core\\iservices\\ishiftexchangeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90BF2400-0A52-4F0C-9ECA-5A9DB4E08D1A}|Mng_shifts.Core\\Mng_shifts.Core.csproj|solutionrelative:mng_shifts.core\\iservices\\ishiftexchangeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7302CFE2-9C55-4E26-9A7C-864C0B5164D8}|Mng_shifts\\Mng_shifts.Api.csproj|C:\\myCoursesFullStack\\\u05EA\u05E9\u05E4\u05D4\\Mng_shifts\\Mng_shifts_server\\mng_shifts\\mng_shifts.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{7302CFE2-9C55-4E26-9A7C-864C0B5164D8}|Mng_shifts\\Mng_shifts.Api.csproj|solutionrelative:mng_shifts\\mng_shifts.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{90BF2400-0A52-4F0C-9ECA-5A9DB4E08D1A}|Mng_shifts.Core\\Mng_shifts.Core.csproj|C:\\myCoursesFullStack\\\u05EA\u05E9\u05E4\u05D4\\Mng_shifts\\Mng_shifts_server\\mng_shifts.core\\mng_shifts.core.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{90BF2400-0A52-4F0C-9ECA-5A9DB4E08D1A}|Mng_shifts.Core\\Mng_shifts.Core.csproj|solutionrelative:mng_shifts.core\\mng_shifts.core.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7302CFE2-9C55-4E26-9A7C-864C0B5164D8}|Mng_shifts\\Mng_shifts.Api.csproj|C:\\myCoursesFullStack\\\u05EA\u05E9\u05E4\u05D4\\Mng_shifts\\Mng_shifts_server\\mng_shifts\\models.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7302CFE2-9C55-4E26-9A7C-864C0B5164D8}|Mng_shifts\\Mng_shifts.Api.csproj|solutionrelative:mng_shifts\\models.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{90BF2400-0A52-4F0C-9ECA-5A9DB4E08D1A}|Mng_shifts.Core\\Mng_shifts.Core.csproj|C:\\myCoursesFullStack\\\u05EA\u05E9\u05E4\u05D4\\Mng_shifts\\Mng_shifts_server\\mng_shifts.core\\dtos\\swapproposaldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90BF2400-0A52-4F0C-9ECA-5A9DB4E08D1A}|Mng_shifts.Core\\Mng_shifts.Core.csproj|solutionrelative:mng_shifts.core\\dtos\\swapproposaldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{90BF2400-0A52-4F0C-9ECA-5A9DB4E08D1A}|Mng_shifts.Core\\Mng_shifts.Core.csproj|C:\\myCoursesFullStack\\\u05EA\u05E9\u05E4\u05D4\\Mng_shifts\\Mng_shifts_server\\mng_shifts.core\\dtos\\swaprequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90BF2400-0A52-4F0C-9ECA-5A9DB4E08D1A}|Mng_shifts.Core\\Mng_shifts.Core.csproj|solutionrelative:mng_shifts.core\\dtos\\swaprequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{90BF2400-0A52-4F0C-9ECA-5A9DB4E08D1A}|Mng_shifts.Core\\Mng_shifts.Core.csproj|C:\\myCoursesFullStack\\\u05EA\u05E9\u05E4\u05D4\\Mng_shifts\\Mng_shifts_server\\mng_shifts.core\\dtos\\shiftdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90BF2400-0A52-4F0C-9ECA-5A9DB4E08D1A}|Mng_shifts.Core\\Mng_shifts.Core.csproj|solutionrelative:mng_shifts.core\\dtos\\shiftdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7302CFE2-9C55-4E26-9A7C-864C0B5164D8}|Mng_shifts\\Mng_shifts.Api.csproj|C:\\myCoursesFullStack\\\u05EA\u05E9\u05E4\u05D4\\Mng_shifts\\Mng_shifts_server\\mng_shifts\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{7302CFE2-9C55-4E26-9A7C-864C0B5164D8}|Mng_shifts\\Mng_shifts.Api.csproj|solutionrelative:mng_shifts\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D6E3A30-5298-4D74-9AEC-0A2AAF582C1C}|Mng_shifts.Data\\Mng_shifts.Data.csproj|C:\\myCoursesFullStack\\\u05EA\u05E9\u05E4\u05D4\\Mng_shifts\\Mng_shifts_server\\mng_shifts.data\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D6E3A30-5298-4D74-9AEC-0A2AAF582C1C}|Mng_shifts.Data\\Mng_shifts.Data.csproj|solutionrelative:mng_shifts.data\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7302CFE2-9C55-4E26-9A7C-864C0B5164D8}|Mng_shifts\\Mng_shifts.Api.csproj|C:\\myCoursesFullStack\\\u05EA\u05E9\u05E4\u05D4\\Mng_shifts\\Mng_shifts_server\\mng_shifts\\mappingprofilemodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7302CFE2-9C55-4E26-9A7C-864C0B5164D8}|Mng_shifts\\Mng_shifts.Api.csproj|solutionrelative:mng_shifts\\mappingprofilemodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{90BF2400-0A52-4F0C-9ECA-5A9DB4E08D1A}|Mng_shifts.Core\\Mng_shifts.Core.csproj|C:\\myCoursesFullStack\\\u05EA\u05E9\u05E4\u05D4\\Mng_shifts\\Mng_shifts_server\\mng_shifts.core\\dtos\\employeedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90BF2400-0A52-4F0C-9ECA-5A9DB4E08D1A}|Mng_shifts.Core\\Mng_shifts.Core.csproj|solutionrelative:mng_shifts.core\\dtos\\employeedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D6E3A30-5298-4D74-9AEC-0A2AAF582C1C}|Mng_shifts.Data\\Mng_shifts.Data.csproj|C:\\myCoursesFullStack\\\u05EA\u05E9\u05E4\u05D4\\Mng_shifts\\Mng_shifts_server\\mng_shifts.data\\migrations\\20250615140747_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D6E3A30-5298-4D74-9AEC-0A2AAF582C1C}|Mng_shifts.Data\\Mng_shifts.Data.csproj|solutionrelative:mng_shifts.data\\migrations\\20250615140747_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D6E3A30-5298-4D74-9AEC-0A2AAF582C1C}|Mng_shifts.Data\\Mng_shifts.Data.csproj|C:\\myCoursesFullStack\\\u05EA\u05E9\u05E4\u05D4\\Mng_shifts\\Mng_shifts_server\\mng_shifts.data\\migrations\\datacontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D6E3A30-5298-4D74-9AEC-0A2AAF582C1C}|Mng_shifts.Data\\Mng_shifts.Data.csproj|solutionrelative:mng_shifts.data\\migrations\\datacontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\myCoursesFullStack\\\u05EA\u05E9\u05E4\u05D4\\Mng_shifts\\Mng_shifts.Data\\Migrations\\20250615135657_FixCascade2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\myCoursesFullStack\\\u05EA\u05E9\u05E4\u05D4\\Mng_shifts\\Mng_shifts.Data\\Migrations\\20250615133707_1637.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\myCoursesFullStack\\\u05EA\u05E9\u05E4\u05D4\\Mng_shifts\\Mng_shifts.Data\\Migrations\\20250615133145_1631.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\myCoursesFullStack\\\u05EA\u05E9\u05E4\u05D4\\Mng_shifts\\Mng_shifts.Data\\Migrations\\20250615132708_1627.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\myCoursesFullStack\\\u05EA\u05E9\u05E4\u05D4\\Mng_shifts\\Mng_shifts.Data\\Migrations\\20250615132602_1625.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\myCoursesFullStack\\\u05EA\u05E9\u05E4\u05D4\\Mng_shifts\\Mng_shifts.Data\\Migrations\\20250615132501_1624.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\myCoursesFullStack\\\u05EA\u05E9\u05E4\u05D4\\Mng_shifts\\Mng_shifts.Data\\Migrations\\20250615132353_1623.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\myCoursesFullStack\\\u05EA\u05E9\u05E4\u05D4\\Mng_shifts\\Mng_shifts.Data\\Migrations\\20250615124803_1547.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\myCoursesFullStack\\\u05EA\u05E9\u05E4\u05D4\\Mng_shifts\\Mng_shifts.Data\\Migrations\\20250615124452_1544.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\myCoursesFullStack\\\u05EA\u05E9\u05E4\u05D4\\Mng_shifts\\Mng_shifts.Data\\Migrations\\20250615123313_1533.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\myCoursesFullStack\\\u05EA\u05E9\u05E4\u05D4\\Mng_shifts\\Mng_shifts.Data\\Migrations\\20250615122309_1523.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\myCoursesFullStack\\\u05EA\u05E9\u05E4\u05D4\\Mng_shifts\\Mng_shifts.Data\\Migrations\\20250615121622_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\myCoursesFullStack\\\u05EA\u05E9\u05E4\u05D4\\Mng_shifts\\Mng_shifts.Data\\Migrations\\20250615113230_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\myCoursesFullStack\\\u05EA\u05E9\u05E4\u05D4\\Mng_shifts\\Mng_shifts.Data\\Migrations\\20250615112537_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\myCoursesFullStack\\\u05EA\u05E9\u05E4\u05D4\\Mng_shifts\\Mng_shifts.Data\\Migrations\\20250615101625_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D6E3A30-5298-4D74-9AEC-0A2AAF582C1C}|Mng_shifts.Data\\Mng_shifts.Data.csproj|C:\\myCoursesFullStack\\\u05EA\u05E9\u05E4\u05D4\\Mng_shifts\\Mng_shifts_server\\Mng_shifts.Data\\Migrations\\20250616091900_1218.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D6E3A30-5298-4D74-9AEC-0A2AAF582C1C}|Mng_shifts.Data\\Mng_shifts.Data.csproj|solutionrelative:Mng_shifts.Data\\Migrations\\20250616091900_1218.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D6E3A30-5298-4D74-9AEC-0A2AAF582C1C}|Mng_shifts.Data\\Mng_shifts.Data.csproj|C:\\myCoursesFullStack\\\u05EA\u05E9\u05E4\u05D4\\Mng_shifts\\Mng_shifts_server\\Mng_shifts.Data\\Migrations\\20250615141332_init2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D6E3A30-5298-4D74-9AEC-0A2AAF582C1C}|Mng_shifts.Data\\Mng_shifts.Data.csproj|solutionrelative:Mng_shifts.Data\\Migrations\\20250615141332_init2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D6E3A30-5298-4D74-9AEC-0A2AAF582C1C}|Mng_shifts.Data\\Mng_shifts.Data.csproj|C:\\myCoursesFullStack\\\u05EA\u05E9\u05E4\u05D4\\Mng_shifts\\Mng_shifts_server\\Mng_shifts.Data\\Migrations\\20250615124235_1542.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D6E3A30-5298-4D74-9AEC-0A2AAF582C1C}|Mng_shifts.Data\\Mng_shifts.Data.csproj|solutionrelative:Mng_shifts.Data\\Migrations\\20250615124235_1542.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SwapRequest.cs",
+              "DocumentMoniker": "C:\\myCoursesFullStack\\\u05EA\u05E9\u05E4\u05D4\\Mng_shifts\\Mng_shifts_server\\Mng_shifts.Core\\Entities\\SwapRequest.cs",
+              "RelativeDocumentMoniker": "Mng_shifts.Core\\Entities\\SwapRequest.cs",
+              "ToolTip": "C:\\myCoursesFullStack\\\u05EA\u05E9\u05E4\u05D4\\Mng_shifts\\Mng_shifts_server\\Mng_shifts.Core\\Entities\\SwapRequest.cs",
+              "RelativeToolTip": "Mng_shifts.Core\\Entities\\SwapRequest.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAAYwCoAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-23T22:43:31.316Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ShiftExchangeRepository.cs",
+              "DocumentMoniker": "C:\\myCoursesFullStack\\\u05EA\u05E9\u05E4\u05D4\\Mng_shifts\\Mng_shifts_server\\Mng_shifts.Data\\Repositories\\ShiftExchangeRepository.cs",
+              "RelativeDocumentMoniker": "Mng_shifts.Data\\Repositories\\ShiftExchangeRepository.cs",
+              "ToolTip": "C:\\myCoursesFullStack\\\u05EA\u05E9\u05E4\u05D4\\Mng_shifts\\Mng_shifts_server\\Mng_shifts.Data\\Repositories\\ShiftExchangeRepository.cs",
+              "RelativeToolTip": "Mng_shifts.Data\\Repositories\\ShiftExchangeRepository.cs",
+              "ViewState": "AQIAABwAAAAAAAAAAIA1wDgAAABHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T09:36:09.907Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ShiftExchangeService.cs",
+              "DocumentMoniker": "C:\\myCoursesFullStack\\\u05EA\u05E9\u05E4\u05D4\\Mng_shifts\\Mng_shifts_server\\Mng_shifts.Service\\Services\\ShiftExchangeService.cs",
+              "RelativeDocumentMoniker": "Mng_shifts.Service\\Services\\ShiftExchangeService.cs",
+              "ToolTip": "C:\\myCoursesFullStack\\\u05EA\u05E9\u05E4\u05D4\\Mng_shifts\\Mng_shifts_server\\Mng_shifts.Service\\Services\\ShiftExchangeService.cs",
+              "RelativeToolTip": "Mng_shifts.Service\\Services\\ShiftExchangeService.cs",
+              "ViewState": "AQIAABoAAAAAAAAAAAAhwEsAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T09:28:23.31Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\myCoursesFullStack\\\u05EA\u05E9\u05E4\u05D4\\Mng_shifts\\Mng_shifts_server\\Mng_shifts\\appsettings.json",
+              "RelativeDocumentMoniker": "Mng_shifts\\appsettings.json",
+              "ToolTip": "C:\\myCoursesFullStack\\\u05EA\u05E9\u05E4\u05D4\\Mng_shifts\\Mng_shifts_server\\Mng_shifts\\appsettings.json",
+              "RelativeToolTip": "Mng_shifts\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-14T23:21:31.053Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ShiftExchangeController.cs",
+              "DocumentMoniker": "C:\\myCoursesFullStack\\\u05EA\u05E9\u05E4\u05D4\\Mng_shifts\\Mng_shifts_server\\Mng_shifts\\Controllers\\ShiftExchangeController.cs",
+              "RelativeDocumentMoniker": "Mng_shifts\\Controllers\\ShiftExchangeController.cs",
+              "ToolTip": "C:\\myCoursesFullStack\\\u05EA\u05E9\u05E4\u05D4\\Mng_shifts\\Mng_shifts_server\\Mng_shifts\\Controllers\\ShiftExchangeController.cs",
+              "RelativeToolTip": "Mng_shifts\\Controllers\\ShiftExchangeController.cs",
+              "ViewState": "AQIAACsAAAAAAAAAAIA2wEQAAABHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T09:24:32.064Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Mng_shifts.Service.csproj",
+              "DocumentMoniker": "C:\\myCoursesFullStack\\\u05EA\u05E9\u05E4\u05D4\\Mng_shifts\\Mng_shifts_server\\Mng_shifts.Service\\Mng_shifts.Service.csproj",
+              "RelativeDocumentMoniker": "Mng_shifts.Service\\Mng_shifts.Service.csproj",
+              "ToolTip": "C:\\myCoursesFullStack\\\u05EA\u05E9\u05E4\u05D4\\Mng_shifts\\Mng_shifts_server\\Mng_shifts.Service\\Mng_shifts.Service.csproj",
+              "RelativeToolTip": "Mng_shifts.Service\\Mng_shifts.Service.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-06-15T18:18:27.465Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IShiftExchangeRepository.cs",
+              "DocumentMoniker": "C:\\myCoursesFullStack\\\u05EA\u05E9\u05E4\u05D4\\Mng_shifts\\Mng_shifts_server\\Mng_shifts.Core\\IRepositories\\IShiftExchangeRepository.cs",
+              "RelativeDocumentMoniker": "Mng_shifts.Core\\IRepositories\\IShiftExchangeRepository.cs",
+              "ToolTip": "C:\\myCoursesFullStack\\\u05EA\u05E9\u05E4\u05D4\\Mng_shifts\\Mng_shifts_server\\Mng_shifts.Core\\IRepositories\\IShiftExchangeRepository.cs",
+              "RelativeToolTip": "Mng_shifts.Core\\IRepositories\\IShiftExchangeRepository.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAA5wCAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T09:35:07.354Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IShiftExchangeService.cs",
+              "DocumentMoniker": "C:\\myCoursesFullStack\\\u05EA\u05E9\u05E4\u05D4\\Mng_shifts\\Mng_shifts_server\\Mng_shifts.Core\\IServices\\IShiftExchangeService.cs",
+              "RelativeDocumentMoniker": "Mng_shifts.Core\\IServices\\IShiftExchangeService.cs",
+              "ToolTip": "C:\\myCoursesFullStack\\\u05EA\u05E9\u05E4\u05D4\\Mng_shifts\\Mng_shifts_server\\Mng_shifts.Core\\IServices\\IShiftExchangeService.cs",
+              "RelativeToolTip": "Mng_shifts.Core\\IServices\\IShiftExchangeService.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAuwBMAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T09:27:22.622Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Mng_shifts.Api.csproj",
+              "DocumentMoniker": "C:\\myCoursesFullStack\\\u05EA\u05E9\u05E4\u05D4\\Mng_shifts\\Mng_shifts_server\\Mng_shifts\\Mng_shifts.Api.csproj",
+              "RelativeDocumentMoniker": "Mng_shifts\\Mng_shifts.Api.csproj",
+              "ToolTip": "C:\\myCoursesFullStack\\\u05EA\u05E9\u05E4\u05D4\\Mng_shifts\\Mng_shifts_server\\Mng_shifts\\Mng_shifts.Api.csproj",
+              "RelativeToolTip": "Mng_shifts\\Mng_shifts.Api.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-06-15T09:34:34.77Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Mng_shifts.Core.csproj",
+              "DocumentMoniker": "C:\\myCoursesFullStack\\\u05EA\u05E9\u05E4\u05D4\\Mng_shifts\\Mng_shifts_server\\Mng_shifts.Core\\Mng_shifts.Core.csproj",
+              "RelativeDocumentMoniker": "Mng_shifts.Core\\Mng_shifts.Core.csproj",
+              "ToolTip": "C:\\myCoursesFullStack\\\u05EA\u05E9\u05E4\u05D4\\Mng_shifts\\Mng_shifts_server\\Mng_shifts.Core\\Mng_shifts.Core.csproj",
+              "RelativeToolTip": "Mng_shifts.Core\\Mng_shifts.Core.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-06-14T22:39:21.528Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ShiftDTO.cs",
+              "DocumentMoniker": "C:\\myCoursesFullStack\\\u05EA\u05E9\u05E4\u05D4\\Mng_shifts\\Mng_shifts_server\\Mng_shifts.Core\\DTOs\\ShiftDTO.cs",
+              "RelativeDocumentMoniker": "Mng_shifts.Core\\DTOs\\ShiftDTO.cs",
+              "ToolTip": "C:\\myCoursesFullStack\\\u05EA\u05E9\u05E4\u05D4\\Mng_shifts\\Mng_shifts_server\\Mng_shifts.Core\\DTOs\\ShiftDTO.cs",
+              "RelativeToolTip": "Mng_shifts.Core\\DTOs\\ShiftDTO.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAqwAwAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T15:24:28.444Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Models.cs",
+              "DocumentMoniker": "C:\\myCoursesFullStack\\\u05EA\u05E9\u05E4\u05D4\\Mng_shifts\\Mng_shifts_server\\Mng_shifts\\Models.cs",
+              "RelativeDocumentMoniker": "Mng_shifts\\Models.cs",
+              "ToolTip": "C:\\myCoursesFullStack\\\u05EA\u05E9\u05E4\u05D4\\Mng_shifts\\Mng_shifts_server\\Mng_shifts\\Models.cs",
+              "RelativeToolTip": "Mng_shifts\\Models.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAxwBgAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T15:28:19.954Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "SwapProposalDTO.cs",
+              "DocumentMoniker": "C:\\myCoursesFullStack\\\u05EA\u05E9\u05E4\u05D4\\Mng_shifts\\Mng_shifts_server\\Mng_shifts.Core\\DTOs\\SwapProposalDTO.cs",
+              "RelativeDocumentMoniker": "Mng_shifts.Core\\DTOs\\SwapProposalDTO.cs",
+              "ToolTip": "C:\\myCoursesFullStack\\\u05EA\u05E9\u05E4\u05D4\\Mng_shifts\\Mng_shifts_server\\Mng_shifts.Core\\DTOs\\SwapProposalDTO.cs",
+              "RelativeToolTip": "Mng_shifts.Core\\DTOs\\SwapProposalDTO.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAA8wA8AAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T15:25:16.433Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "SwapRequestDTO.cs",
+              "DocumentMoniker": "C:\\myCoursesFullStack\\\u05EA\u05E9\u05E4\u05D4\\Mng_shifts\\Mng_shifts_server\\Mng_shifts.Core\\DTOs\\SwapRequestDTO.cs",
+              "RelativeDocumentMoniker": "Mng_shifts.Core\\DTOs\\SwapRequestDTO.cs",
+              "ToolTip": "C:\\myCoursesFullStack\\\u05EA\u05E9\u05E4\u05D4\\Mng_shifts\\Mng_shifts_server\\Mng_shifts.Core\\DTOs\\SwapRequestDTO.cs",
+              "RelativeToolTip": "Mng_shifts.Core\\DTOs\\SwapRequestDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAcwA4AAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T15:25:38.642Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\myCoursesFullStack\\\u05EA\u05E9\u05E4\u05D4\\Mng_shifts\\Mng_shifts_server\\Mng_shifts\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Mng_shifts\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\myCoursesFullStack\\\u05EA\u05E9\u05E4\u05D4\\Mng_shifts\\Mng_shifts_server\\Mng_shifts\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Mng_shifts\\Properties\\launchSettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-18T12:15:48.237Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "DataContext.cs",
+              "DocumentMoniker": "C:\\myCoursesFullStack\\\u05EA\u05E9\u05E4\u05D4\\Mng_shifts\\Mng_shifts_server\\Mng_shifts.Data\\DataContext.cs",
+              "RelativeDocumentMoniker": "Mng_shifts.Data\\DataContext.cs",
+              "ToolTip": "C:\\myCoursesFullStack\\\u05EA\u05E9\u05E4\u05D4\\Mng_shifts\\Mng_shifts_server\\Mng_shifts.Data\\DataContext.cs",
+              "RelativeToolTip": "Mng_shifts.Data\\DataContext.cs",
+              "ViewState": "AQIAACQAAAAAAAAAAAAxwC8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-14T23:04:29.948Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "20250616091900_1218.cs",
+              "DocumentMoniker": "C:\\myCoursesFullStack\\\u05EA\u05E9\u05E4\u05D4\\Mng_shifts\\Mng_shifts_server\\Mng_shifts.Data\\Migrations\\20250616091900_1218.cs",
+              "RelativeDocumentMoniker": "Mng_shifts.Data\\Migrations\\20250616091900_1218.cs",
+              "ToolTip": "C:\\myCoursesFullStack\\\u05EA\u05E9\u05E4\u05D4\\Mng_shifts\\Mng_shifts_server\\Mng_shifts.Data\\Migrations\\20250616091900_1218.cs",
+              "RelativeToolTip": "Mng_shifts.Data\\Migrations\\20250616091900_1218.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T09:19:00.818Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "MappingProfileModels.cs",
+              "DocumentMoniker": "C:\\myCoursesFullStack\\\u05EA\u05E9\u05E4\u05D4\\Mng_shifts\\Mng_shifts_server\\Mng_shifts\\MappingProfileModels.cs",
+              "RelativeDocumentMoniker": "Mng_shifts\\MappingProfileModels.cs",
+              "ToolTip": "C:\\myCoursesFullStack\\\u05EA\u05E9\u05E4\u05D4\\Mng_shifts\\Mng_shifts_server\\Mng_shifts\\MappingProfileModels.cs",
+              "RelativeToolTip": "Mng_shifts\\MappingProfileModels.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAIBJwAEAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T15:31:42.388Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "EmployeeDTO.cs",
+              "DocumentMoniker": "C:\\myCoursesFullStack\\\u05EA\u05E9\u05E4\u05D4\\Mng_shifts\\Mng_shifts_server\\Mng_shifts.Core\\DTOs\\EmployeeDTO.cs",
+              "RelativeDocumentMoniker": "Mng_shifts.Core\\DTOs\\EmployeeDTO.cs",
+              "ToolTip": "C:\\myCoursesFullStack\\\u05EA\u05E9\u05E4\u05D4\\Mng_shifts\\Mng_shifts_server\\Mng_shifts.Core\\DTOs\\EmployeeDTO.cs",
+              "RelativeToolTip": "Mng_shifts.Core\\DTOs\\EmployeeDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T14:43:37.147Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "20250615141332_init2.cs",
+              "DocumentMoniker": "C:\\myCoursesFullStack\\\u05EA\u05E9\u05E4\u05D4\\Mng_shifts\\Mng_shifts_server\\Mng_shifts.Data\\Migrations\\20250615141332_init2.cs",
+              "RelativeDocumentMoniker": "Mng_shifts.Data\\Migrations\\20250615141332_init2.cs",
+              "ToolTip": "C:\\myCoursesFullStack\\\u05EA\u05E9\u05E4\u05D4\\Mng_shifts\\Mng_shifts_server\\Mng_shifts.Data\\Migrations\\20250615141332_init2.cs",
+              "RelativeToolTip": "Mng_shifts.Data\\Migrations\\20250615141332_init2.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T14:13:33.077Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "20250615140747_init.cs",
+              "DocumentMoniker": "C:\\myCoursesFullStack\\\u05EA\u05E9\u05E4\u05D4\\Mng_shifts\\Mng_shifts_server\\Mng_shifts.Data\\Migrations\\20250615140747_init.cs",
+              "RelativeDocumentMoniker": "Mng_shifts.Data\\Migrations\\20250615140747_init.cs",
+              "ToolTip": "C:\\myCoursesFullStack\\\u05EA\u05E9\u05E4\u05D4\\Mng_shifts\\Mng_shifts_server\\Mng_shifts.Data\\Migrations\\20250615140747_init.cs",
+              "RelativeToolTip": "Mng_shifts.Data\\Migrations\\20250615140747_init.cs",
+              "ViewState": "AQIAAHoAAAAAAAAAAAAAwIkAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T14:07:47.362Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "DataContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\myCoursesFullStack\\\u05EA\u05E9\u05E4\u05D4\\Mng_shifts\\Mng_shifts_server\\Mng_shifts.Data\\Migrations\\DataContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "Mng_shifts.Data\\Migrations\\DataContextModelSnapshot.cs",
+              "ToolTip": "C:\\myCoursesFullStack\\\u05EA\u05E9\u05E4\u05D4\\Mng_shifts\\Mng_shifts_server\\Mng_shifts.Data\\Migrations\\DataContextModelSnapshot.cs",
+              "RelativeToolTip": "Mng_shifts.Data\\Migrations\\DataContextModelSnapshot.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T14:07:55.249Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "20250615135657_FixCascade2.cs",
+              "DocumentMoniker": "C:\\myCoursesFullStack\\\u05EA\u05E9\u05E4\u05D4\\Mng_shifts\\Mng_shifts.Data\\Migrations\\20250615135657_FixCascade2.cs",
+              "RelativeDocumentMoniker": "..\\Mng_shifts.Data\\Migrations\\20250615135657_FixCascade2.cs",
+              "ToolTip": "C:\\myCoursesFullStack\\\u05EA\u05E9\u05E4\u05D4\\Mng_shifts\\Mng_shifts.Data\\Migrations\\20250615135657_FixCascade2.cs",
+              "RelativeToolTip": "..\\Mng_shifts.Data\\Migrations\\20250615135657_FixCascade2.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T13:56:57.249Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "20250615133707_1637.cs",
+              "DocumentMoniker": "C:\\myCoursesFullStack\\\u05EA\u05E9\u05E4\u05D4\\Mng_shifts\\Mng_shifts.Data\\Migrations\\20250615133707_1637.cs",
+              "RelativeDocumentMoniker": "..\\Mng_shifts.Data\\Migrations\\20250615133707_1637.cs",
+              "ToolTip": "C:\\myCoursesFullStack\\\u05EA\u05E9\u05E4\u05D4\\Mng_shifts\\Mng_shifts.Data\\Migrations\\20250615133707_1637.cs",
+              "RelativeToolTip": "..\\Mng_shifts.Data\\Migrations\\20250615133707_1637.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T13:37:07.961Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "20250615133145_1631.cs",
+              "DocumentMoniker": "C:\\myCoursesFullStack\\\u05EA\u05E9\u05E4\u05D4\\Mng_shifts\\Mng_shifts.Data\\Migrations\\20250615133145_1631.cs",
+              "RelativeDocumentMoniker": "..\\Mng_shifts.Data\\Migrations\\20250615133145_1631.cs",
+              "ToolTip": "C:\\myCoursesFullStack\\\u05EA\u05E9\u05E4\u05D4\\Mng_shifts\\Mng_shifts.Data\\Migrations\\20250615133145_1631.cs",
+              "RelativeToolTip": "..\\Mng_shifts.Data\\Migrations\\20250615133145_1631.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T13:31:45.341Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "20250615132708_1627.cs",
+              "DocumentMoniker": "C:\\myCoursesFullStack\\\u05EA\u05E9\u05E4\u05D4\\Mng_shifts\\Mng_shifts.Data\\Migrations\\20250615132708_1627.cs",
+              "RelativeDocumentMoniker": "..\\Mng_shifts.Data\\Migrations\\20250615132708_1627.cs",
+              "ToolTip": "C:\\myCoursesFullStack\\\u05EA\u05E9\u05E4\u05D4\\Mng_shifts\\Mng_shifts.Data\\Migrations\\20250615132708_1627.cs",
+              "RelativeToolTip": "..\\Mng_shifts.Data\\Migrations\\20250615132708_1627.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T13:27:08.624Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "20250615132602_1625.cs",
+              "DocumentMoniker": "C:\\myCoursesFullStack\\\u05EA\u05E9\u05E4\u05D4\\Mng_shifts\\Mng_shifts.Data\\Migrations\\20250615132602_1625.cs",
+              "RelativeDocumentMoniker": "..\\Mng_shifts.Data\\Migrations\\20250615132602_1625.cs",
+              "ToolTip": "C:\\myCoursesFullStack\\\u05EA\u05E9\u05E4\u05D4\\Mng_shifts\\Mng_shifts.Data\\Migrations\\20250615132602_1625.cs",
+              "RelativeToolTip": "..\\Mng_shifts.Data\\Migrations\\20250615132602_1625.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T13:26:02.782Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "20250615132501_1624.cs",
+              "DocumentMoniker": "C:\\myCoursesFullStack\\\u05EA\u05E9\u05E4\u05D4\\Mng_shifts\\Mng_shifts.Data\\Migrations\\20250615132501_1624.cs",
+              "RelativeDocumentMoniker": "..\\Mng_shifts.Data\\Migrations\\20250615132501_1624.cs",
+              "ToolTip": "C:\\myCoursesFullStack\\\u05EA\u05E9\u05E4\u05D4\\Mng_shifts\\Mng_shifts.Data\\Migrations\\20250615132501_1624.cs",
+              "RelativeToolTip": "..\\Mng_shifts.Data\\Migrations\\20250615132501_1624.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T13:25:02.294Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "20250615132353_1623.cs",
+              "DocumentMoniker": "C:\\myCoursesFullStack\\\u05EA\u05E9\u05E4\u05D4\\Mng_shifts\\Mng_shifts.Data\\Migrations\\20250615132353_1623.cs",
+              "RelativeDocumentMoniker": "..\\Mng_shifts.Data\\Migrations\\20250615132353_1623.cs",
+              "ToolTip": "C:\\myCoursesFullStack\\\u05EA\u05E9\u05E4\u05D4\\Mng_shifts\\Mng_shifts.Data\\Migrations\\20250615132353_1623.cs",
+              "RelativeToolTip": "..\\Mng_shifts.Data\\Migrations\\20250615132353_1623.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T13:23:53.644Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "20250615124803_1547.cs",
+              "DocumentMoniker": "C:\\myCoursesFullStack\\\u05EA\u05E9\u05E4\u05D4\\Mng_shifts\\Mng_shifts.Data\\Migrations\\20250615124803_1547.cs",
+              "RelativeDocumentMoniker": "..\\Mng_shifts.Data\\Migrations\\20250615124803_1547.cs",
+              "ToolTip": "C:\\myCoursesFullStack\\\u05EA\u05E9\u05E4\u05D4\\Mng_shifts\\Mng_shifts.Data\\Migrations\\20250615124803_1547.cs",
+              "RelativeToolTip": "..\\Mng_shifts.Data\\Migrations\\20250615124803_1547.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T12:48:03.789Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "20250615124452_1544.cs",
+              "DocumentMoniker": "C:\\myCoursesFullStack\\\u05EA\u05E9\u05E4\u05D4\\Mng_shifts\\Mng_shifts.Data\\Migrations\\20250615124452_1544.cs",
+              "RelativeDocumentMoniker": "..\\Mng_shifts.Data\\Migrations\\20250615124452_1544.cs",
+              "ToolTip": "C:\\myCoursesFullStack\\\u05EA\u05E9\u05E4\u05D4\\Mng_shifts\\Mng_shifts.Data\\Migrations\\20250615124452_1544.cs",
+              "RelativeToolTip": "..\\Mng_shifts.Data\\Migrations\\20250615124452_1544.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T12:44:52.825Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "20250615124235_1542.cs",
+              "DocumentMoniker": "C:\\myCoursesFullStack\\\u05EA\u05E9\u05E4\u05D4\\Mng_shifts\\Mng_shifts_server\\Mng_shifts.Data\\Migrations\\20250615124235_1542.cs",
+              "RelativeDocumentMoniker": "Mng_shifts.Data\\Migrations\\20250615124235_1542.cs",
+              "ToolTip": "C:\\myCoursesFullStack\\\u05EA\u05E9\u05E4\u05D4\\Mng_shifts\\Mng_shifts_server\\Mng_shifts.Data\\Migrations\\20250615124235_1542.cs",
+              "RelativeToolTip": "Mng_shifts.Data\\Migrations\\20250615124235_1542.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T12:42:36.093Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "20250615123313_1533.cs",
+              "DocumentMoniker": "C:\\myCoursesFullStack\\\u05EA\u05E9\u05E4\u05D4\\Mng_shifts\\Mng_shifts.Data\\Migrations\\20250615123313_1533.cs",
+              "RelativeDocumentMoniker": "..\\Mng_shifts.Data\\Migrations\\20250615123313_1533.cs",
+              "ToolTip": "C:\\myCoursesFullStack\\\u05EA\u05E9\u05E4\u05D4\\Mng_shifts\\Mng_shifts.Data\\Migrations\\20250615123313_1533.cs",
+              "RelativeToolTip": "..\\Mng_shifts.Data\\Migrations\\20250615123313_1533.cs",
+              "ViewState": "AQIAAPUAAAAAAAAAAAAowBABAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T12:33:14.002Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "20250615122309_1523.cs",
+              "DocumentMoniker": "C:\\myCoursesFullStack\\\u05EA\u05E9\u05E4\u05D4\\Mng_shifts\\Mng_shifts.Data\\Migrations\\20250615122309_1523.cs",
+              "RelativeDocumentMoniker": "..\\Mng_shifts.Data\\Migrations\\20250615122309_1523.cs",
+              "ToolTip": "C:\\myCoursesFullStack\\\u05EA\u05E9\u05E4\u05D4\\Mng_shifts\\Mng_shifts.Data\\Migrations\\20250615122309_1523.cs",
+              "RelativeToolTip": "..\\Mng_shifts.Data\\Migrations\\20250615122309_1523.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T12:23:09.779Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "20250615121622_init.cs",
+              "DocumentMoniker": "C:\\myCoursesFullStack\\\u05EA\u05E9\u05E4\u05D4\\Mng_shifts\\Mng_shifts.Data\\Migrations\\20250615121622_init.cs",
+              "RelativeDocumentMoniker": "..\\Mng_shifts.Data\\Migrations\\20250615121622_init.cs",
+              "ToolTip": "C:\\myCoursesFullStack\\\u05EA\u05E9\u05E4\u05D4\\Mng_shifts\\Mng_shifts.Data\\Migrations\\20250615121622_init.cs",
+              "RelativeToolTip": "..\\Mng_shifts.Data\\Migrations\\20250615121622_init.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T12:16:22.347Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "20250615113230_init.cs",
+              "DocumentMoniker": "C:\\myCoursesFullStack\\\u05EA\u05E9\u05E4\u05D4\\Mng_shifts\\Mng_shifts.Data\\Migrations\\20250615113230_init.cs",
+              "RelativeDocumentMoniker": "..\\Mng_shifts.Data\\Migrations\\20250615113230_init.cs",
+              "ToolTip": "C:\\myCoursesFullStack\\\u05EA\u05E9\u05E4\u05D4\\Mng_shifts\\Mng_shifts.Data\\Migrations\\20250615113230_init.cs",
+              "RelativeToolTip": "..\\Mng_shifts.Data\\Migrations\\20250615113230_init.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T11:32:30.563Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "20250615112537_init.cs",
+              "DocumentMoniker": "C:\\myCoursesFullStack\\\u05EA\u05E9\u05E4\u05D4\\Mng_shifts\\Mng_shifts.Data\\Migrations\\20250615112537_init.cs",
+              "RelativeDocumentMoniker": "..\\Mng_shifts.Data\\Migrations\\20250615112537_init.cs",
+              "ToolTip": "C:\\myCoursesFullStack\\\u05EA\u05E9\u05E4\u05D4\\Mng_shifts\\Mng_shifts.Data\\Migrations\\20250615112537_init.cs",
+              "RelativeToolTip": "..\\Mng_shifts.Data\\Migrations\\20250615112537_init.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T11:25:37.577Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "20250615101625_init.cs",
+              "DocumentMoniker": "C:\\myCoursesFullStack\\\u05EA\u05E9\u05E4\u05D4\\Mng_shifts\\Mng_shifts.Data\\Migrations\\20250615101625_init.cs",
+              "RelativeDocumentMoniker": "..\\Mng_shifts.Data\\Migrations\\20250615101625_init.cs",
+              "ToolTip": "C:\\myCoursesFullStack\\\u05EA\u05E9\u05E4\u05D4\\Mng_shifts\\Mng_shifts.Data\\Migrations\\20250615101625_init.cs",
+              "RelativeToolTip": "..\\Mng_shifts.Data\\Migrations\\20250615101625_init.cs",
+              "ViewState": "AQIAAHgAAAAAAAAAAAAmwIkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T10:16:26.051Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
